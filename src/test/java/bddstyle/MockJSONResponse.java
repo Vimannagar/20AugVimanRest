@@ -1,5 +1,6 @@
 package bddstyle;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.path.json.JsonPath;
@@ -47,8 +48,41 @@ public class MockJSONResponse {
 		for(int i=0; i<count; i++)
 		{
 			String coursetitle = jp.getString("courses["+i+"].title");
-			System.out.println(coursetitle);
+			
+			
+			String price = jp.getString("courses["+i+"].price");
+			
+			System.out.println(coursetitle+" " +price);
 		}
 	}
+	
+	
+	
+	@Test
+	public void validatePrice()
+	{
+		
+		int sum = 0;
+		JsonPath jp = new JsonPath(JsonString.mockjson());
+		
+		int coursecount = jp.getInt("courses.size()");
+		
+		for(int i=0; i<coursecount; i++)
+		{
+			int price = jp.getInt("courses["+i+"].price");
+			
+			int copies = jp.getInt("courses["+i+"].copies");
+			
+			sum = sum+ price*copies;
+		}
+		
+		int totalprice = jp.getInt("dashboard.purchaseAmount");
+		
+		
+		Assert.assertEquals(sum, totalprice);
+		
+	}
+	
+
 
 }

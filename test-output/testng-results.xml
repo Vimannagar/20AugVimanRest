@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T20:13:05 IST" name="Default suite" finished-at="2023-02-14T20:13:08 IST" duration-ms="3621">
+  <suite started-at="2023-02-16T20:03:25 IST" name="Default suite" finished-at="2023-02-16T20:03:34 IST" duration-ms="8382">
     <groups>
     </groups>
-    <test started-at="2023-02-14T20:13:05 IST" name="Default test" finished-at="2023-02-14T20:13:08 IST" duration-ms="3621">
-      <class name="bddstyle.MockJSONResponse">
-        <test-method signature="getPurchaseAmount()[pri:1, instance:bddstyle.MockJSONResponse@5403f35f]" started-at="2023-02-14T20:13:05 IST" name="getPurchaseAmount" finished-at="2023-02-14T20:13:08 IST" duration-ms="3001" status="PASS">
+    <test started-at="2023-02-16T20:03:25 IST" name="Default test" finished-at="2023-02-16T20:03:34 IST" duration-ms="8382">
+      <class name="bddstyle.ReqResSpecBuilder">
+        <test-method signature="createUser()[pri:0, instance:bddstyle.ReqResSpecBuilder@4a7f959b]" started-at="2023-02-16T20:03:25 IST" name="createUser" finished-at="2023-02-16T20:03:34 IST" duration-ms="8263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPurchaseAmount -->
-        <test-method signature="getCourseCount()[pri:2, instance:bddstyle.MockJSONResponse@5403f35f]" started-at="2023-02-14T20:13:08 IST" name="getCourseCount" finished-at="2023-02-14T20:13:08 IST" duration-ms="82" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getCourseCount -->
-        <test-method signature="getTitleOfAllCourses()[pri:3, instance:bddstyle.MockJSONResponse@5403f35f]" started-at="2023-02-14T20:13:08 IST" name="getTitleOfAllCourses" finished-at="2023-02-14T20:13:08 IST" duration-ms="369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitleOfAllCourses -->
-      </class> <!-- bddstyle.MockJSONResponse -->
+        </test-method> <!-- createUser -->
+      </class> <!-- bddstyle.ReqResSpecBuilder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
