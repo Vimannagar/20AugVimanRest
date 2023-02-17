@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-16T20:03:25 IST" name="Default suite" finished-at="2023-02-16T20:03:34 IST" duration-ms="8382">
+  <suite started-at="2023-02-17T20:16:20 IST" name="Default suite" finished-at="2023-02-17T20:16:26 IST" duration-ms="6459">
     <groups>
     </groups>
-    <test started-at="2023-02-16T20:03:25 IST" name="Default test" finished-at="2023-02-16T20:03:34 IST" duration-ms="8382">
-      <class name="bddstyle.ReqResSpecBuilder">
-        <test-method signature="createUser()[pri:0, instance:bddstyle.ReqResSpecBuilder@4a7f959b]" started-at="2023-02-16T20:03:25 IST" name="createUser" finished-at="2023-02-16T20:03:34 IST" duration-ms="8263" status="PASS">
+    <test started-at="2023-02-17T20:16:20 IST" name="Default test" finished-at="2023-02-17T20:16:26 IST" duration-ms="6459">
+      <class name="seriaanddeseria.CreateUser">
+        <test-method signature="createUserAPI()[pri:0, instance:seriaanddeseria.CreateUser@32b260fa]" started-at="2023-02-17T20:16:20 IST" name="createUserAPI" finished-at="2023-02-17T20:16:26 IST" duration-ms="6364" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- bddstyle.ReqResSpecBuilder -->
+        </test-method> <!-- createUserAPI -->
+      </class> <!-- seriaanddeseria.CreateUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
