@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-17T20:16:20 IST" name="Default suite" finished-at="2023-02-17T20:16:26 IST" duration-ms="6459">
+  <suite started-at="2023-02-18T20:28:19 IST" name="Suite" finished-at="2023-02-18T20:28:34 IST" duration-ms="14999">
     <groups>
     </groups>
-    <test started-at="2023-02-17T20:16:20 IST" name="Default test" finished-at="2023-02-17T20:16:26 IST" duration-ms="6459">
-      <class name="seriaanddeseria.CreateUser">
-        <test-method signature="createUserAPI()[pri:0, instance:seriaanddeseria.CreateUser@32b260fa]" started-at="2023-02-17T20:16:20 IST" name="createUserAPI" finished-at="2023-02-17T20:16:26 IST" duration-ms="6364" status="PASS">
+    <test started-at="2023-02-18T20:28:19 IST" name="Test" finished-at="2023-02-18T20:28:34 IST" duration-ms="14999">
+      <class name="ecommerceapi.Login">
+        <test-method signature="loginToApp()[pri:0, instance:ecommerceapi.Login@57d7f8ca]" started-at="2023-02-18T20:28:19 IST" name="loginToApp" finished-at="2023-02-18T20:28:28 IST" duration-ms="9074" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUserAPI -->
-      </class> <!-- seriaanddeseria.CreateUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginToApp -->
+      </class> <!-- ecommerceapi.Login -->
+      <class name="ecommerceapi.AddProduct">
+        <test-method signature="addProduct()[pri:0, instance:ecommerceapi.AddProduct@32ee6fee]" started-at="2023-02-18T20:28:28 IST" name="addProduct" finished-at="2023-02-18T20:28:34 IST" duration-ms="5795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- ecommerceapi.AddProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
