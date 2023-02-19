@@ -5,6 +5,8 @@
     <classes>
       <class name="ecommerceapi.Login"/>
        <class name="ecommerceapi.AddProduct"/>
+       <class name="ecommerceapi.PlaceOrder"/>
+        <class name="ecommerceapi.DeleteProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

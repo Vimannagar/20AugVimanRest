@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-18T20:28:19 IST" name="Suite" finished-at="2023-02-18T20:28:34 IST" duration-ms="14999">
+  <suite started-at="2023-02-19T20:02:31 IST" name="Suite" finished-at="2023-02-19T20:02:40 IST" duration-ms="8840">
     <groups>
     </groups>
-    <test started-at="2023-02-18T20:28:19 IST" name="Test" finished-at="2023-02-18T20:28:34 IST" duration-ms="14999">
+    <test started-at="2023-02-19T20:02:31 IST" name="Test" finished-at="2023-02-19T20:02:40 IST" duration-ms="8840">
+      <class name="ecommerceapi.DeleteProduct">
+        <test-method signature="validateDeleteProduct()[pri:0, instance:ecommerceapi.DeleteProduct@28f2a10f]" started-at="2023-02-19T20:02:39 IST" name="validateDeleteProduct" finished-at="2023-02-19T20:02:40 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteProduct -->
+      </class> <!-- ecommerceapi.DeleteProduct -->
       <class name="ecommerceapi.Login">
-        <test-method signature="loginToApp()[pri:0, instance:ecommerceapi.Login@57d7f8ca]" started-at="2023-02-18T20:28:19 IST" name="loginToApp" finished-at="2023-02-18T20:28:28 IST" duration-ms="9074" status="PASS">
+        <test-method signature="loginToApp()[pri:0, instance:ecommerceapi.Login@fba92d3]" started-at="2023-02-19T20:02:31 IST" name="loginToApp" finished-at="2023-02-19T20:02:37 IST" duration-ms="5942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
       </class> <!-- ecommerceapi.Login -->
+      <class name="ecommerceapi.PlaceOrder">
+        <test-method signature="placeUserOrder()[pri:0, instance:ecommerceapi.PlaceOrder@47faa49c]" started-at="2023-02-19T20:02:39 IST" name="placeUserOrder" finished-at="2023-02-19T20:02:39 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeUserOrder -->
+      </class> <!-- ecommerceapi.PlaceOrder -->
       <class name="ecommerceapi.AddProduct">
-        <test-method signature="addProduct()[pri:0, instance:ecommerceapi.AddProduct@32ee6fee]" started-at="2023-02-18T20:28:28 IST" name="addProduct" finished-at="2023-02-18T20:28:34 IST" duration-ms="5795" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:ecommerceapi.AddProduct@73e22a3d]" started-at="2023-02-19T20:02:37 IST" name="addProduct" finished-at="2023-02-19T20:02:39 IST" duration-ms="2197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
